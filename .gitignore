@@ -1,0 +1,10 @@
+# Exclude compiled macOS shared libraries
+*.dylib
+
+# Exclude potential Linux or Windows artifacts if cross-compiling
+*.so
+*.dll
+
+# Exclude temporary compilation files
+*.o
+*.obj
